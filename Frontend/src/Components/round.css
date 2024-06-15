@@ -1,0 +1,109 @@
+.container-dashboard-user {
+  display: flex; /* Makes the container a flexible box */
+}
+
+.container-dashboard-user .column1 {
+  flex: 0.05; /* Takes up twice the space as column2 */
+}
+
+.container-dashboard-user .column2 {
+  flex: 1; /* Takes up half the space as column1 */
+  display: flex; /* Makes column2 a flexible box for its rows */
+  flex-direction: column; /* Stacks rows vertically */
+}
+
+.container-dashboard-user .column2 .row1, .container-dashboard-user .column2 .row2 {
+  flex: 1; /* Makes both rows have equal height within column2 */
+}
+
+.container-dashboard-user .column2 .row1 {
+  font-weight: 600;
+}
+
+.dashboard-card {
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+}
+
+.dashboard-card-title {
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  color:#F8F9FB;
+}
+
+.dashboard-card-counter {
+  position: absolute;
+  left: 7%;
+  bottom: 15%;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #F8F9FB;
+}
+
+.dashboard-card-icon {
+  position: absolute;
+  bottom: 35%;
+  right: 7%;
+}
+
+h6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date-row {
+  margin-top: 20px;
+}
+
+.date-col {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.match-row {
+  margin-top: 5px;
+}
+
+.vs-col {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-box {
+  background-color: #19c954;
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 1) 0px 4px 12px;
+  color: #F8F9FB;
+}
+
+.sports-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-450%, -900%); /* Center horizontally and vertically */
+  height: 40px;
+}
+
+
+
+.basketball-heading {
+  text-align: center;
+  margin-left: 30px; /* Adjust the left margin as needed */
+}
+
+.green-background {
+  background-color: #19c954; /* Green color */
+  padding: 20px; /* Optional: add padding for spacing */
+}
+
+  

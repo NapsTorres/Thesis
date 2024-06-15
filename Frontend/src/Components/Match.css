@@ -1,0 +1,27 @@
+.match-button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.create-match-button{
+    width: 100px;
+    height: 50px;
+    background-color: #039660;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.match-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.create-point-button{
+    width: 100px;
+    height: 50px;
+    background-color: #039660;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}

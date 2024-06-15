@@ -1,0 +1,50 @@
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+}
+
+body.dark-mode .login-box {
+    background-color: #343a40;
+    color: #c7c7c7;
+}
+
+body.dark-mode .login-box a {
+    color: #c7c7c7;
+}
+
+body.dark-mode .login-box a:hover {
+    color: #fff;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #343a40;
+    color: #c7c7c7;
+}
+
+body.dark-mode a {
+    color: #c7c7c7;
+}
+
+body.dark-mode a:hover {
+    color: #fff;
+}
+
+body.dark-mode .container {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #343a40;
+}

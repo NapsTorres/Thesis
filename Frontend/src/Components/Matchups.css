@@ -1,0 +1,22 @@
+/* Matchups container */
+.matchups-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  /* Round-robin layout */
+  .round-robin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Individual matchup */
+  .matchup {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+  }
+  

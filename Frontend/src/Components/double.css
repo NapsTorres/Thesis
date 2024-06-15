@@ -1,0 +1,24 @@
+/* Custom Button Styles */
+.winner-button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .winner-button:hover {
+    background-color: #45a049; /* Darker Green */
+  }
+  
+  .winner-button[disabled] {
+    background-color: #ccc; /* Grey */
+    cursor: not-allowed;
+  }
+  

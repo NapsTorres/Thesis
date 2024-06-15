@@ -1,0 +1,11 @@
+.game-table {
+    background-color: transparent;
+}
+.event-thead-item {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.event-td-user {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
